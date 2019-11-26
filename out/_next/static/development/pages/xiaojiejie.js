@@ -4632,10 +4632,10 @@ var assign=Object.assign.bind(Object);function g(){return assign;}Object.defineP
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fxiaojiejie&absolutePagePath=%2FUsers%2Fmac%2FDesktop%2Fnext%2Fnext-create%2Fpages%2Fxiaojiejie.js!./":
-/*!********************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fxiaojiejie&absolutePagePath=%2FUsers%2Fmac%2FDesktop%2Fnext%2Fnext-create%2Fpages%2Fxiaojiejie.js ***!
-  \********************************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fxiaojiejie&absolutePagePath=%2FUsers%2Fmac%2FDesktop%2Fnext%2Fnext-test%2Fpages%2Fxiaojiejie.js!./":
+/*!******************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fxiaojiejie&absolutePagePath=%2FUsers%2Fmac%2FDesktop%2Fnext%2Fnext-test%2Fpages%2Fxiaojiejie.js ***!
+  \******************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -10043,7 +10043,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_router__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_2__);
-var _jsxFileName = "/Users/mac/Desktop/next/next-create/pages/xiaojiejie.js";
+var _jsxFileName = "/Users/mac/Desktop/next/next-test/pages/xiaojiejie.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -10077,14 +10077,14 @@ var Xiaojiejie = function Xiaojiejie(_ref) {
 
 /***/ }),
 
-/***/ 2:
-/*!************************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2Fxiaojiejie&absolutePagePath=%2FUsers%2Fmac%2FDesktop%2Fnext%2Fnext-create%2Fpages%2Fxiaojiejie.js ***!
-  \************************************************************************************************************************************************/
+/***/ 1:
+/*!**********************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2Fxiaojiejie&absolutePagePath=%2FUsers%2Fmac%2FDesktop%2Fnext%2Fnext-test%2Fpages%2Fxiaojiejie.js ***!
+  \**********************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fxiaojiejie&absolutePagePath=%2FUsers%2Fmac%2FDesktop%2Fnext%2Fnext-create%2Fpages%2Fxiaojiejie.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fxiaojiejie&absolutePagePath=%2FUsers%2Fmac%2FDesktop%2Fnext%2Fnext-create%2Fpages%2Fxiaojiejie.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fxiaojiejie&absolutePagePath=%2FUsers%2Fmac%2FDesktop%2Fnext%2Fnext-test%2Fpages%2Fxiaojiejie.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fxiaojiejie&absolutePagePath=%2FUsers%2Fmac%2FDesktop%2Fnext%2Fnext-test%2Fpages%2Fxiaojiejie.js!./");
 
 
 /***/ }),
@@ -10100,5 +10100,5 @@ module.exports = dll_5f137288facb1107b491;
 
 /***/ })
 
-},[[2,"static/runtime/webpack.js"]]]);
+},[[1,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=xiaojiejie.js.map
