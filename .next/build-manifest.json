@@ -1,36 +1,43 @@
 {
-  "devFiles": [
-    "static/development/dll/dll_4b8bef20edde04f98d3f.js",
-    "static/development/dll/dll_4b8bef20edde04f98d3f.js.map"
-  ],
+  "devFiles": [],
   "pages": {
     "/": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
+      "static/runtime/webpack-9369c5c69dbf6d4912cb.js",
+      "static/chunks/commons.a06bd0c913d26c38158a.js",
+      "static/runtime/main-56d2b5af1c3ae079dd48.js"
     ],
     "/_app": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
+      "static/runtime/webpack-9369c5c69dbf6d4912cb.js",
+      "static/chunks/commons.a06bd0c913d26c38158a.js",
+      "static/runtime/main-56d2b5af1c3ae079dd48.js"
     ],
     "/_error": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
+      "static/runtime/webpack-9369c5c69dbf6d4912cb.js",
+      "static/chunks/commons.a06bd0c913d26c38158a.js",
+      "static/runtime/main-56d2b5af1c3ae079dd48.js"
     ],
     "/_polyfills": [
-      "static/runtime/polyfills.js",
-      "static/runtime/polyfills.js.map"
+      "static/runtime/polyfills-83c9f0eea3aa0edfd89e.js"
     ],
     "/index": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
+      "static/runtime/webpack-9369c5c69dbf6d4912cb.js",
+      "static/chunks/commons.a06bd0c913d26c38158a.js",
+      "static/runtime/main-56d2b5af1c3ae079dd48.js"
     ],
-    "/next/dist/pages/_error": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
+    "/jspangA": [
+      "static/runtime/webpack-9369c5c69dbf6d4912cb.js",
+      "static/chunks/commons.a06bd0c913d26c38158a.js",
+      "static/runtime/main-56d2b5af1c3ae079dd48.js"
+    ],
+    "/jspangB": [
+      "static/runtime/webpack-9369c5c69dbf6d4912cb.js",
+      "static/chunks/commons.a06bd0c913d26c38158a.js",
+      "static/runtime/main-56d2b5af1c3ae079dd48.js"
     ],
     "/xiaojiejie": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
+      "static/runtime/webpack-9369c5c69dbf6d4912cb.js",
+      "static/chunks/commons.a06bd0c913d26c38158a.js",
+      "static/runtime/main-56d2b5af1c3ae079dd48.js"
     ]
   }
 }

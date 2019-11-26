@@ -1,0 +1,33 @@
+{
+  "modules": {
+    "byIdentifier": {},
+    "usedIds": {}
+  },
+  "chunks": {
+    "byName": {
+      "static/runtime/webpack.js": 0,
+      "commons": 1,
+      "static/iAr2jzNqWTXW_qACtpH1q/pages/_app.js": 2,
+      "static/iAr2jzNqWTXW_qACtpH1q/pages/_error.js": 3,
+      "static/iAr2jzNqWTXW_qACtpH1q/pages/index.js": 4,
+      "static/iAr2jzNqWTXW_qACtpH1q/pages/jspangA.js": 5,
+      "static/iAr2jzNqWTXW_qACtpH1q/pages/jspangB.js": 6,
+      "static/iAr2jzNqWTXW_qACtpH1q/pages/xiaojiejie.js": 7,
+      "static/runtime/main.js": 8,
+      "static/runtime/polyfills.js": 9
+    },
+    "bySource": {},
+    "usedIds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  }
+}
