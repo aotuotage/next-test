@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -2099,64 +2099,57 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/router */ "next/router");
 /* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_router__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var next_server_config__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! next-server/config */ "next-server/config");
-/* harmony import */ var next_server_config__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_server_config__WEBPACK_IMPORTED_MODULE_3__);
 var _jsxFileName = "/Users/mac/Desktop/next/next-test/pages/index.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
- // const { linkPrefix } = getConfig.runtimeConfig();
-
-console.log(next_server_config__WEBPACK_IMPORTED_MODULE_3___default.a);
 
 const Home = () => {
   return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11
+      lineNumber: 8
     },
     __self: undefined
   }, "\u6211\u662F\u9996\u9875"), __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12
+      lineNumber: 9
     },
     __self: undefined
   }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
     href: "/xiaojiejie?name=\u6CE2\u591A\u91CE\u7ED3\u8863",
     passHref: true,
-    as: `${next_server_config__WEBPACK_IMPORTED_MODULE_3___default.a}/xiaojiejie?name=波多野结衣`,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13
+      lineNumber: 10
     },
     __self: undefined
   }, __jsx("a", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13
+      lineNumber: 10
     },
     __self: undefined
   }, "\u9009\u6CE2\u591A\u91CE\u7ED3\u8863")), __jsx("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13
+      lineNumber: 10
     },
     __self: undefined
   }), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
     href: "/xiaojiejie?name=\u82CD\u4E95\u7A7A",
     passHref: true,
-    as: `${next_server_config__WEBPACK_IMPORTED_MODULE_3___default.a}/xiaojiejie?name=苍井空`,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14
+      lineNumber: 11
     },
     __self: undefined
   }, __jsx("a", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14
+      lineNumber: 11
     },
     __self: undefined
   }, "\u9009\u82CD\u4E95\u7A7A"))));
@@ -2169,7 +2162,7 @@ next_router__WEBPACK_IMPORTED_MODULE_2___default.a.events.on('routeChangeStart',
 
 /***/ }),
 
-/***/ 3:
+/***/ 4:
 /*!******************************!*\
   !*** multi ./pages/index.js ***!
   \******************************/
@@ -2266,17 +2259,6 @@ module.exports = require("core-js/library/fn/promise");
 /***/ (function(module, exports) {
 
 module.exports = require("core-js/library/fn/weak-map");
-
-/***/ }),
-
-/***/ "next-server/config":
-/*!*************************************!*\
-  !*** external "next-server/config" ***!
-  \*************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("next-server/config");
 
 /***/ }),
 
