@@ -19,7 +19,7 @@ module.exports = withLess(
     assetPrefix: prod ? '/next-test' : '',
     publicRuntimeConfig: {
       linkPrefix: prod ? '/next-test' : '',
-      staticFolder: '/static/images'
+      staticFolder: '/public'
     }
   })
 );

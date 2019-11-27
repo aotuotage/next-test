@@ -15,7 +15,7 @@ const Home = () => {
       <Nav/>
       <div className="indexpage"> 
           <div className="jackma">
-              <img src={`${publicRuntimeConfig.staticFolder}/jack-ma.jpg`}/>
+    
               <div className="header_img"></div>
           </div>
       </div>
