@@ -5,10 +5,6 @@ import '../public/less/reset.less'
 import '../public/less/index.less'
 import Nav from './Nav'
 
-
-import getConfig from 'next/config'
-const {publicRuntimeConfig} = getConfig()
-
 const Home = () => {
   return(
     <>
@@ -20,9 +16,5 @@ const Home = () => {
       </div>
     </>
   )
-
 }
-Router.events.on('routeChangeStart',(...args)=>{
-  console.log('1.routeChangeStart->路由开始变化,参数为:',...args)
-})
 export default Home
