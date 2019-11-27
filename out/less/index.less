@@ -1,16 +1,130 @@
 .indexpage{
     background: #eee;
-    padding-top: 40px;
+    padding: 40px 0;
     .jackma{
         width:343px;
-        height: 331px;
+        height: 300px;
         background:#fff;
         border-radius: 20px;
         margin:0 auto;
+        padding-top:20px;
         .header_img{
             width:150px;
             height: 150px;
-            // background:url("../images/jack-ma.jpg") no-repeat;
+            background:url("/images/jack-ma.jpg") no-repeat;
+            background-size:cover;
+            margin:0 auto;
+            border-radius: 50%;
+        }
+        h3{
+            font-size: 24px;
+            color: #ffa040;
+            text-align: center;
+            margin-top: 30px;
+        }
+        .balance{
+            margin-top: 20px;
+            .balance_baby{
+                width: 160px;
+                height: 40px;
+                background: #ff5722;
+                color: #ffffff;
+                border: none;
+                border-radius: 10px;
+                font-size: 16px;
+                margin: 0 auto;
+                display: block;
+            }
+            .balance_baby_on{
+                width: 160px;
+                height: 40px;
+                background: #999999;
+                color: #ffffff;
+                border: none;
+                border-radius: 10px;
+                font-size: 16px;
+                margin: 0 auto;
+                display: block;
+            }
+            span{
+                text-align: center;
+                font-size: 14px;
+                color: #666;
+                display: block;
+                margin: 0 auto;
+                margin-top: 15px;
+            }
+        }
+    }
+    .mall{
+        width:350px;
+        height: 50px;
+        color: #ffffff;
+        background:#ff5722;
+        margin: 0 auto;
+        margin-top:20px;
+        border-radius: 5px;
+        ul{
+            display:flex;
+            justify-content:space-around;
+            line-height:50px;
+            li{
+                width:80px;
+                height: 44px;
+                font-size: 18px;
+                text-align: center;
+                a{
+                    color: #ffffff;
+                }
+            }
+            .li_on{
+                border-bottom: 1px solid #ffa040;
+                a{
+                    color: #ffffff;
+                }
+            }
+        }
+    }
+    .auto_list{
+        width:350px;
+        height: 300px;
+        background:#ffffff;
+        margin: 20px auto;
+        border-radius: 5px;
+        img{
+            width:100%;
+            height: 192px;
+            border-radius: 5px 5px 0 0;
+        }
+        h3{
+            font-size: 24px;
+            color: #000000;
+            margin:10px 0 0 15px;
+            .price{
+                font-size:16px;
+                color: #FF5000;
+            }
+        }
+        .add_button{
+            margin-top:20px;
+            display: flex;
+            justify-content: space-between;
+            .control{
+                width:100px;
+                display:flex;
+                justify-content: space-around;
+                font-size:18px;
+                color: #999999;
+            }
+            .increase{
+                width:90px;
+                height: 30px;
+                background:#ff5722;
+                border:none;
+                border-radius: 5px;
+                color: #ffffff;
+                margin-right: 10px;
+            }
         }
     }
 }
