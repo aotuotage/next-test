@@ -18,7 +18,8 @@ module.exports = withLess(
     // next-antd-ssr这个名字是你github项目名称
     assetPrefix: prod ? '/next-test' : '',
     publicRuntimeConfig: {
-      linkPrefix: prod ? '/next-test' : ''
+      linkPrefix: prod ? '/next-test' : '',
+      staticFolder: '/public',
     }
   })
 );
