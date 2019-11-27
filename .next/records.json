@@ -207,7 +207,11 @@
       "static/z8nObfk2P3rUrSgcVJIBD/pages/_app.js": 7,
       "static/z8nObfk2P3rUrSgcVJIBD/pages/_error.js": 8,
       "static/z8nObfk2P3rUrSgcVJIBD/pages/index.js": 9,
-      "static/z8nObfk2P3rUrSgcVJIBD/pages/nav.js": 12
+      "static/z8nObfk2P3rUrSgcVJIBD/pages/nav.js": 12,
+      "static/DMfDp7HXCwe6Kgwj2Ixr1/pages/_app.js": 3,
+      "static/DMfDp7HXCwe6Kgwj2Ixr1/pages/_error.js": 4,
+      "static/DMfDp7HXCwe6Kgwj2Ixr1/pages/index.js": 5,
+      "static/DMfDp7HXCwe6Kgwj2Ixr1/pages/nav.js": 6
     },
     "bySource": {},
     "usedIds": [
@@ -215,11 +219,11 @@
       1,
       10,
       11,
-      12,
       2,
-      7,
-      8,
-      9
+      3,
+      4,
+      5,
+      6
     ]
   },
   "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!node_modules/less-loader/dist/cjs.js??ref--5-2!public/less/reset.less": [
