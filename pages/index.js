@@ -1,14 +1,23 @@
 import React from 'react'
 import Link from 'next/link'
 import Router from 'next/router'
+import '../statics/less/reset.less'
+import '../statics/less/index.less'
+import Nav from './Nav'
+
+
+import getConfig from 'next/config'
+const {publicRuntimeConfig} = getConfig()
 
 const Home = () => {
   return(
     <>
-      <div>我是首页</div>
-      <div>
-        <Link href="/xiaojiejie?name=波多野结衣" passHref><a>选波多野结衣</a></Link><br/>
-        <Link href="/xiaojiejie?name=苍井空" passHref><a>选苍井空</a></Link>
+      <Nav/>
+      <div className="indexpage"> 
+          <div className="jackma">
+              <img src={`${publicRuntimeConfig.staticFolder}/jack-ma.jpg`}/>
+              <div className="header_img"></div>
+          </div>
       </div>
     </>
   )

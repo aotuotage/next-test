@@ -15,11 +15,11 @@ module.exports = withLess(
       },
       javascriptEnabled: true
     },
-
     // next-antd-ssr这个名字是你github项目名称
-    assetPrefix: prod ? '/' : '',
+    assetPrefix: prod ? '/next-test' : '',
     publicRuntimeConfig: {
-      linkPrefix: prod ? '/' : ''
+      linkPrefix: prod ? '/next-test' : '',
+      staticFolder: '/static/images'
     }
   })
 );

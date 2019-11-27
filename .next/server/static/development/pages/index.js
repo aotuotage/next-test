@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 4);
+/******/ 	return __webpack_require__(__webpack_require__.s = 3);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -2084,6 +2084,74 @@ if (false) {} else {
 
 /***/ }),
 
+/***/ "./pages/Nav.js":
+/*!**********************!*\
+  !*** ./pages/Nav.js ***!
+  \**********************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/head */ "next/head");
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _statics_less_nav_less__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../statics/less/nav.less */ "./statics/less/nav.less");
+/* harmony import */ var _statics_less_nav_less__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_statics_less_nav_less__WEBPACK_IMPORTED_MODULE_2__);
+var _jsxFileName = "/Users/mac/Desktop/next/next-test/pages/Nav.js";
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+function Nav() {
+  return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx(next_head__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7
+    },
+    __self: this
+  }, __jsx("title", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8
+    },
+    __self: this
+  }, "\u9A6C\u4E91\u6A21\u62DF\u5668"), __jsx("meta", {
+    charSet: "utf-8",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9
+    },
+    __self: this
+  })), __jsx("div", {
+    className: "navclass",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
+    },
+    __self: this
+  }, __jsx("h3", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12
+    },
+    __self: this
+  }, "\u4F59\u989D\uFF1A279,000,000,000"), __jsx("button", {
+    type: "button",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13
+    },
+    __self: this
+  }, "\u8D2D\u7269\u8F66")));
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (Nav);
+
+/***/ }),
+
 /***/ "./pages/index.js":
 /*!************************!*\
   !*** ./pages/index.js ***!
@@ -2099,60 +2167,62 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/router */ "next/router");
 /* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_router__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _statics_less_reset_less__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../statics/less/reset.less */ "./statics/less/reset.less");
+/* harmony import */ var _statics_less_reset_less__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_statics_less_reset_less__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _statics_less_index_less__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../statics/less/index.less */ "./statics/less/index.less");
+/* harmony import */ var _statics_less_index_less__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_statics_less_index_less__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _Nav__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./Nav */ "./pages/Nav.js");
+/* harmony import */ var next_config__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! next/config */ "next/config");
+/* harmony import */ var next_config__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(next_config__WEBPACK_IMPORTED_MODULE_6__);
 var _jsxFileName = "/Users/mac/Desktop/next/next-test/pages/index.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
 
+
+
+
+const {
+  publicRuntimeConfig
+} = next_config__WEBPACK_IMPORTED_MODULE_6___default()();
+
 const Home = () => {
-  return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx("div", {
+  return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx(_Nav__WEBPACK_IMPORTED_MODULE_5__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 8
+      lineNumber: 15
     },
     __self: undefined
-  }, "\u6211\u662F\u9996\u9875"), __jsx("div", {
+  }), __jsx("div", {
+    className: "indexpage",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9
+      lineNumber: 16
     },
     __self: undefined
-  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/xiaojiejie?name=\u6CE2\u591A\u91CE\u7ED3\u8863",
-    passHref: true,
+  }, __jsx("div", {
+    className: "jackma",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10
+      lineNumber: 17
     },
     __self: undefined
-  }, __jsx("a", {
+  }, __jsx("img", {
+    src: `${publicRuntimeConfig.staticFolder}/jack-ma.jpg`,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10
+      lineNumber: 18
     },
     __self: undefined
-  }, "\u9009\u6CE2\u591A\u91CE\u7ED3\u8863")), __jsx("br", {
+  }), __jsx("div", {
+    className: "header_img",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10
+      lineNumber: 19
     },
     __self: undefined
-  }), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/xiaojiejie?name=\u82CD\u4E95\u7A7A",
-    passHref: true,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 11
-    },
-    __self: undefined
-  }, __jsx("a", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 11
-    },
-    __self: undefined
-  }, "\u9009\u82CD\u4E95\u7A7A"))));
+  }))));
 };
 
 next_router__WEBPACK_IMPORTED_MODULE_2___default.a.events.on('routeChangeStart', (...args) => {
@@ -2162,7 +2232,40 @@ next_router__WEBPACK_IMPORTED_MODULE_2___default.a.events.on('routeChangeStart',
 
 /***/ }),
 
-/***/ 4:
+/***/ "./statics/less/index.less":
+/*!*********************************!*\
+  !*** ./statics/less/index.less ***!
+  \*********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+
+
+/***/ }),
+
+/***/ "./statics/less/nav.less":
+/*!*******************************!*\
+  !*** ./statics/less/nav.less ***!
+  \*******************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+
+
+/***/ }),
+
+/***/ "./statics/less/reset.less":
+/*!*********************************!*\
+  !*** ./statics/less/reset.less ***!
+  \*********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+
+
+/***/ }),
+
+/***/ 3:
 /*!******************************!*\
   !*** multi ./pages/index.js ***!
   \******************************/
@@ -2259,6 +2362,28 @@ module.exports = require("core-js/library/fn/promise");
 /***/ (function(module, exports) {
 
 module.exports = require("core-js/library/fn/weak-map");
+
+/***/ }),
+
+/***/ "next/config":
+/*!******************************!*\
+  !*** external "next/config" ***!
+  \******************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("next/config");
+
+/***/ }),
+
+/***/ "next/head":
+/*!****************************!*\
+  !*** external "next/head" ***!
+  \****************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("next/head");
 
 /***/ }),
 

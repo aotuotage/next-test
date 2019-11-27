@@ -4,10 +4,11 @@
       "multi private-next-pages/index.js": 0,
       "multi private-next-pages/jspangA.js": 1,
       "multi private-next-pages/jspangB.js": 2,
-      "multi private-next-pages/xiaojiejie.js": 3,
-      "multi next/dist/pages/_app": 4,
-      "multi next/dist/pages/_error": 5,
-      "multi next/dist/pages/_document": 6
+      "multi private-next-pages/nav.js": 3,
+      "multi private-next-pages/xiaojiejie.js": 4,
+      "multi next/dist/pages/_app": 5,
+      "multi next/dist/pages/_error": 6,
+      "multi next/dist/pages/_document": 7
     },
     "usedIds": {
       "0": 0,
@@ -16,20 +17,22 @@
       "3": 3,
       "4": 4,
       "5": 5,
-      "6": 6
+      "6": 6,
+      "7": 7
     }
   },
   "chunks": {
     "byName": {
       "init-server.js": 0,
       "on-error-server.js": 1,
-      "static/jGrXGR-0UKFnftmHricIS/pages/_app.js": 2,
-      "static/jGrXGR-0UKFnftmHricIS/pages/_document.js": 3,
-      "static/jGrXGR-0UKFnftmHricIS/pages/_error.js": 4,
-      "static/jGrXGR-0UKFnftmHricIS/pages/index.js": 5,
-      "static/jGrXGR-0UKFnftmHricIS/pages/jspangA.js": 6,
-      "static/jGrXGR-0UKFnftmHricIS/pages/jspangB.js": 7,
-      "static/jGrXGR-0UKFnftmHricIS/pages/xiaojiejie.js": 8
+      "static/2O8X82tl7ROAJRMLC0Zur/pages/_app.js": 2,
+      "static/2O8X82tl7ROAJRMLC0Zur/pages/_document.js": 3,
+      "static/2O8X82tl7ROAJRMLC0Zur/pages/_error.js": 4,
+      "static/2O8X82tl7ROAJRMLC0Zur/pages/index.js": 5,
+      "static/2O8X82tl7ROAJRMLC0Zur/pages/jspangA.js": 6,
+      "static/2O8X82tl7ROAJRMLC0Zur/pages/jspangB.js": 7,
+      "static/2O8X82tl7ROAJRMLC0Zur/pages/nav.js": 8,
+      "static/2O8X82tl7ROAJRMLC0Zur/pages/xiaojiejie.js": 9
     },
     "bySource": {},
     "usedIds": [
@@ -41,7 +44,8 @@
       5,
       6,
       7,
-      8
+      8,
+      9
     ]
   }
 }
