@@ -15,7 +15,6 @@ const Home = () => {
       <Nav/>
       <div className="indexpage"> 
           <div className="jackma">
-    
               <div className="header_img"></div>
           </div>
       </div>
