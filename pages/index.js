@@ -1,8 +1,8 @@
 import React from 'react'
 import Link from 'next/link'
 import Router from 'next/router'
-import '../statics/less/reset.less'
-import '../statics/less/index.less'
+import '../public/less/reset.less'
+import '../public/less/index.less'
 import Nav from './Nav'
 
 
