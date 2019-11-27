@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import "../statics/less/nav.less"
+import "../public/less/nav.less"
 
 function Nav(){ 
     return (

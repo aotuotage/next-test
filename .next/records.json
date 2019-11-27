@@ -54,7 +54,10 @@
     "byIdentifier": {
       "css node_modules/css-loader/index.js??ref--5-1!node_modules/less-loader/dist/cjs.js??ref--5-2!statics/less/reset.less 0": 0,
       "css node_modules/css-loader/index.js??ref--5-1!node_modules/less-loader/dist/cjs.js??ref--5-2!statics/less/index.less 0": 1,
-      "css node_modules/css-loader/index.js??ref--5-1!node_modules/less-loader/dist/cjs.js??ref--5-2!statics/less/nav.less 0": 2
+      "css node_modules/css-loader/index.js??ref--5-1!node_modules/less-loader/dist/cjs.js??ref--5-2!statics/less/nav.less 0": 2,
+      "css node_modules/css-loader/index.js??ref--5-1!node_modules/less-loader/dist/cjs.js??ref--5-2!public/less/reset.less 0": 0,
+      "css node_modules/css-loader/index.js??ref--5-1!node_modules/less-loader/dist/cjs.js??ref--5-2!public/less/index.less 0": 1,
+      "css node_modules/css-loader/index.js??ref--5-1!node_modules/less-loader/dist/cjs.js??ref--5-2!public/less/nav.less 0": 2
     },
     "usedIds": {
       "0": 0,
@@ -103,7 +106,28 @@
       "static/f2ffryXVkMVBni5yQSM-m/pages/jspangA.js": 6,
       "static/f2ffryXVkMVBni5yQSM-m/pages/jspangB.js": 7,
       "static/f2ffryXVkMVBni5yQSM-m/pages/nav.js": 8,
-      "static/f2ffryXVkMVBni5yQSM-m/pages/xiaojiejie.js": 9
+      "static/f2ffryXVkMVBni5yQSM-m/pages/xiaojiejie.js": 9,
+      "static/Ewg3iG2Es4lHFs9A3HMD0/pages/_app.js": 12,
+      "static/Ewg3iG2Es4lHFs9A3HMD0/pages/_error.js": 13,
+      "static/Ewg3iG2Es4lHFs9A3HMD0/pages/index.js": 14,
+      "static/Ewg3iG2Es4lHFs9A3HMD0/pages/jspangA.js": 15,
+      "static/Ewg3iG2Es4lHFs9A3HMD0/pages/jspangB.js": 16,
+      "static/Ewg3iG2Es4lHFs9A3HMD0/pages/nav.js": 17,
+      "static/Ewg3iG2Es4lHFs9A3HMD0/pages/xiaojiejie.js": 18,
+      "static/o8k2cOwNI6x5mbuWPN5Yc/pages/_app.js": 3,
+      "static/o8k2cOwNI6x5mbuWPN5Yc/pages/_error.js": 4,
+      "static/o8k2cOwNI6x5mbuWPN5Yc/pages/index.js": 5,
+      "static/o8k2cOwNI6x5mbuWPN5Yc/pages/jspangA.js": 6,
+      "static/o8k2cOwNI6x5mbuWPN5Yc/pages/jspangB.js": 7,
+      "static/o8k2cOwNI6x5mbuWPN5Yc/pages/nav.js": 8,
+      "static/o8k2cOwNI6x5mbuWPN5Yc/pages/xiaojiejie.js": 9,
+      "static/DvS3nFiiNePBJYhgN4bzu/pages/_app.js": 12,
+      "static/DvS3nFiiNePBJYhgN4bzu/pages/_error.js": 13,
+      "static/DvS3nFiiNePBJYhgN4bzu/pages/index.js": 14,
+      "static/DvS3nFiiNePBJYhgN4bzu/pages/jspangA.js": 15,
+      "static/DvS3nFiiNePBJYhgN4bzu/pages/jspangB.js": 16,
+      "static/DvS3nFiiNePBJYhgN4bzu/pages/nav.js": 17,
+      "static/DvS3nFiiNePBJYhgN4bzu/pages/xiaojiejie.js": 18
     },
     "bySource": {},
     "usedIds": [
@@ -111,14 +135,65 @@
       1,
       10,
       11,
-      2,
-      3,
-      4,
-      5,
-      6,
-      7,
-      8,
-      9
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      2
     ]
-  }
+  },
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!node_modules/less-loader/dist/cjs.js??ref--5-2!public/less/reset.less": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!node_modules/less-loader/dist/cjs.js??ref--5-2!public/less/index.less": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!node_modules/less-loader/dist/cjs.js??ref--5-2!public/less/nav.less": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ]
 }
