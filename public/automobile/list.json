@@ -1,0 +1,37 @@
+[
+    {
+        "img":"images/lafa.jpg",
+        "name":"拉法",
+        "number":"22500000"
+    },
+    {
+        "img":"images/s10071_200.jpg",
+        "name":"法拉利488",
+        "number":"4500000"
+    },    
+    {
+        "img":"images/s8809_200.jpg",
+        "name":"法拉利f12",
+        "number":"5200000"
+    },
+    {
+        "img":"images/s2782_200.jpg",
+        "name":"法拉利812",
+        "number":"4500000"
+    },
+    {
+        "img":"images/s10632_200.jpg",
+        "name":"兰博基尼大牛",
+        "number":"7500000"
+    },
+    {
+        "img":"images/s9830_200.jpg",
+        "name":"兰博基尼urus",
+        "number":"3000000"
+    },
+    {
+        "img":"images/5680fe189983b.jpg",
+        "name":"科尼赛克-Agera",
+        "number":"26500000"
+    }
+]
