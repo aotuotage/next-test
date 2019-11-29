@@ -103,81 +103,105 @@ module.exports =
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Automobile; });
-/* harmony import */ var _babel_runtime_corejs2_core_js_object_define_property__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/core-js/object/define-property */ "./node_modules/@babel/runtime-corejs2/core-js/object/define-property.js");
-/* harmony import */ var _babel_runtime_corejs2_core_js_object_define_property__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs2_core_js_object_define_property__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _babel_runtime_corejs2_core_js_object_define_properties__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/core-js/object/define-properties */ "./node_modules/@babel/runtime-corejs2/core-js/object/define-properties.js");
-/* harmony import */ var _babel_runtime_corejs2_core_js_object_define_properties__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs2_core_js_object_define_properties__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _babel_runtime_corejs2_core_js_object_get_own_property_descriptors__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime-corejs2/core-js/object/get-own-property-descriptors */ "./node_modules/@babel/runtime-corejs2/core-js/object/get-own-property-descriptors.js");
-/* harmony import */ var _babel_runtime_corejs2_core_js_object_get_own_property_descriptors__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs2_core_js_object_get_own_property_descriptors__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _babel_runtime_corejs2_core_js_object_get_own_property_descriptor__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime-corejs2/core-js/object/get-own-property-descriptor */ "./node_modules/@babel/runtime-corejs2/core-js/object/get-own-property-descriptor.js");
-/* harmony import */ var _babel_runtime_corejs2_core_js_object_get_own_property_descriptor__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs2_core_js_object_get_own_property_descriptor__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _babel_runtime_corejs2_core_js_object_get_own_property_symbols__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime-corejs2/core-js/object/get-own-property-symbols */ "./node_modules/@babel/runtime-corejs2/core-js/object/get-own-property-symbols.js");
-/* harmony import */ var _babel_runtime_corejs2_core_js_object_get_own_property_symbols__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs2_core_js_object_get_own_property_symbols__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var _babel_runtime_corejs2_core_js_object_keys__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @babel/runtime-corejs2/core-js/object/keys */ "./node_modules/@babel/runtime-corejs2/core-js/object/keys.js");
-/* harmony import */ var _babel_runtime_corejs2_core_js_object_keys__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs2_core_js_object_keys__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var _babel_runtime_corejs2_core_js_object_assign__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @babel/runtime-corejs2/core-js/object/assign */ "./node_modules/@babel/runtime-corejs2/core-js/object/assign.js");
-/* harmony import */ var _babel_runtime_corejs2_core_js_object_assign__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs2_core_js_object_assign__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/defineProperty */ "./node_modules/@babel/runtime-corejs2/helpers/esm/defineProperty.js");
-/* harmony import */ var _babel_runtime_corejs2_core_js_promise__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @babel/runtime-corejs2/core-js/promise */ "./node_modules/@babel/runtime-corejs2/core-js/promise.js");
-/* harmony import */ var _babel_runtime_corejs2_core_js_promise__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs2_core_js_promise__WEBPACK_IMPORTED_MODULE_8__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_9__);
-/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! axios */ "axios");
-/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_10__);
-
-
-
-
-
-
-
-
+/* harmony import */ var _babel_runtime_corejs2_core_js_object_assign__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/core-js/object/assign */ "./node_modules/@babel/runtime-corejs2/core-js/object/assign.js");
+/* harmony import */ var _babel_runtime_corejs2_core_js_object_assign__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs2_core_js_object_assign__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! axios */ "axios");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_2__);
 
 var _jsxFileName = "/Users/mac/Desktop/next/next-test/components/Automobile.js";
-var __jsx = react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement;
-
-function ownKeys(object, enumerableOnly) { var keys = _babel_runtime_corejs2_core_js_object_keys__WEBPACK_IMPORTED_MODULE_5___default()(object); if (_babel_runtime_corejs2_core_js_object_get_own_property_symbols__WEBPACK_IMPORTED_MODULE_4___default.a) { var symbols = _babel_runtime_corejs2_core_js_object_get_own_property_symbols__WEBPACK_IMPORTED_MODULE_4___default()(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return _babel_runtime_corejs2_core_js_object_get_own_property_descriptor__WEBPACK_IMPORTED_MODULE_3___default()(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
-
-function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_7__["default"])(target, key, source[key]); }); } else if (_babel_runtime_corejs2_core_js_object_get_own_property_descriptors__WEBPACK_IMPORTED_MODULE_2___default.a) { _babel_runtime_corejs2_core_js_object_define_properties__WEBPACK_IMPORTED_MODULE_1___default()(target, _babel_runtime_corejs2_core_js_object_get_own_property_descriptors__WEBPACK_IMPORTED_MODULE_2___default()(source)); } else { ownKeys(Object(source)).forEach(function (key) { _babel_runtime_corejs2_core_js_object_define_property__WEBPACK_IMPORTED_MODULE_0___default()(target, key, _babel_runtime_corejs2_core_js_object_get_own_property_descriptor__WEBPACK_IMPORTED_MODULE_3___default()(source, key)); }); } } return target; }
+var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
 
-
-class Automobile extends react__WEBPACK_IMPORTED_MODULE_9__["Component"] {
+class Automobile extends react__WEBPACK_IMPORTED_MODULE_1__["Component"] {
   constructor(props) {
     super(props);
     this.state = {
-      list: []
+      list: [],
+      value: this.props.value
     };
     this.addcar = this.addcar.bind(this);
+    const {
+      onIncreaseClick
+    } = this.props;
+    this.onIncreaseClick = onIncreaseClick;
   }
 
   componentWillMount() {
-    let _this = this;
-
-    const promise = new _babel_runtime_corejs2_core_js_promise__WEBPACK_IMPORTED_MODULE_8___default.a(resolve => {
-      axios__WEBPACK_IMPORTED_MODULE_10___default()('../automobile/list.json').then(res => {
-        resolve(res.data);
-      });
-    });
-    promise.then(function (res) {
-      let newarr = res.map(function (item) {
-        return _objectSpread({}, item, {
-          addnum: 0
-        });
-      });
-
-      _this.setState({
-        list: newarr
-      });
-
-      console.log(_this.state.list);
+    // let _this = this;
+    // const promise =new Promise((resolve)=>{
+    //     axios('../automobile/list.json').then(
+    //         (res)=>{
+    //             resolve(res.data)
+    //         }
+    //     )
+    // })
+    // promise.then(function(res){
+    //     let newarr = res.map(function(item){
+    //         return {...item,addnum: 0}
+    //     })
+    //     _this.setState({
+    //         list: newarr 
+    //     })
+    // })
+    this.setState({
+      list: [{
+        "img": "images/feiji.jpg",
+        "name": "私人飞机",
+        "number": "420000000",
+        "addnum": 0
+      }, {
+        "img": "images/keji.jpg",
+        "name": "波音747客机",
+        "number": "22500000",
+        "addnum": 0
+      }, {
+        "img": "images/lafa.jpg",
+        "name": "拉法",
+        "number": "2500000000",
+        "addnum": 0
+      }, {
+        "img": "images/s10071_200.jpg",
+        "name": "法拉利488",
+        "number": "4500000",
+        "addnum": 0
+      }, {
+        "img": "images/s8809_200.jpg",
+        "name": "法拉利f12",
+        "number": "5200000",
+        "addnum": 0
+      }, {
+        "img": "images/s2782_200.jpg",
+        "name": "法拉利812",
+        "number": "4500000",
+        "addnum": 0
+      }, {
+        "img": "images/s10632_200.jpg",
+        "name": "兰博基尼大牛",
+        "number": "7500000",
+        "addnum": 0
+      }, {
+        "img": "images/s9830_200.jpg",
+        "name": "兰博基尼urus",
+        "number": "3000000",
+        "addnum": 0
+      }, {
+        "img": "images/5680fe189983b.jpg",
+        "name": "科尼赛克-Agera",
+        "number": "26500000",
+        "addnum": 0
+      }]
     });
   }
 
   addcar(i) {
-    this.state.list[i].addnum += 1;
+    let newaddnum = this.state.list[i].addnum += 1;
+    let newmoney = this.state.list[i].number;
+    let newprodata = this.state.value - newaddnum * newmoney;
+    this.onIncreaseClick(newprodata);
 
-    let newlist = _babel_runtime_corejs2_core_js_object_assign__WEBPACK_IMPORTED_MODULE_6___default()([], this.state.list);
+    let newlist = _babel_runtime_corejs2_core_js_object_assign__WEBPACK_IMPORTED_MODULE_0___default()([], this.state.list);
 
     this.setState({
       list: newlist
@@ -186,9 +210,12 @@ class Automobile extends react__WEBPACK_IMPORTED_MODULE_9__["Component"] {
 
   reducecar(i) {
     if (this.state.list[i].addnum > 0) {
-      this.state.list[i].addnum -= 1;
+      let newaddnum = this.state.list[i].addnum -= 1;
+      let newmoney = this.state.list[i].number;
+      let newprodata = this.state.value + newaddnum * newmoney;
+      this.onIncreaseClick(newprodata);
 
-      let newlist = _babel_runtime_corejs2_core_js_object_assign__WEBPACK_IMPORTED_MODULE_6___default()([], this.state.list);
+      let newlist = _babel_runtime_corejs2_core_js_object_assign__WEBPACK_IMPORTED_MODULE_0___default()([], this.state.list);
 
       this.setState({
         list: newlist
@@ -208,41 +235,41 @@ class Automobile extends react__WEBPACK_IMPORTED_MODULE_9__["Component"] {
           key: i,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 51
+            lineNumber: 117
           },
           __self: this
         }, __jsx("img", {
           src: item.img,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 52
+            lineNumber: 118
           },
           __self: this
         }), __jsx("h3", {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 53
+            lineNumber: 119
           },
           __self: this
         }, item.name, __jsx("span", {
           className: "price",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 53
+            lineNumber: 119
           },
           __self: this
         }, "\uFFE5", item.number)), __jsx("div", {
           className: "add_button",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 54
+            lineNumber: 120
           },
           __self: this
         }, __jsx("div", {
           className: "control",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 55
+            lineNumber: 121
           },
           __self: this
         }, __jsx("div", {
@@ -250,14 +277,14 @@ class Automobile extends react__WEBPACK_IMPORTED_MODULE_9__["Component"] {
           onClick: () => this.reducecar(i),
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 56
+            lineNumber: 122
           },
           __self: this
         }, "-"), __jsx("div", {
           className: "addnum",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 59
+            lineNumber: 125
           },
           __self: this
         }, item.addnum), __jsx("div", {
@@ -265,7 +292,7 @@ class Automobile extends react__WEBPACK_IMPORTED_MODULE_9__["Component"] {
           onClick: () => this.addcar(i),
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 60
+            lineNumber: 126
           },
           __self: this
         }, "+")), __jsx("button", {
@@ -273,7 +300,7 @@ class Automobile extends react__WEBPACK_IMPORTED_MODULE_9__["Component"] {
           onClick: () => this.addcar(i),
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 64
+            lineNumber: 130
           },
           __self: this
         }, "\u52A0\u5165\u8D2D\u7269\u8F66")));
@@ -284,10 +311,432 @@ class Automobile extends react__WEBPACK_IMPORTED_MODULE_9__["Component"] {
   }
 
   render() {
-    return __jsx(react__WEBPACK_IMPORTED_MODULE_9___default.a.Fragment, null, __jsx("div", {
+    return __jsx(react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment, null, __jsx("div", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 74
+        lineNumber: 140
+      },
+      __self: this
+    }, this.addlist()));
+  }
+
+}
+
+/***/ }),
+
+/***/ "./components/House.js":
+/*!*****************************!*\
+  !*** ./components/House.js ***!
+  \*****************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return House; });
+/* harmony import */ var _babel_runtime_corejs2_core_js_object_assign__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/core-js/object/assign */ "./node_modules/@babel/runtime-corejs2/core-js/object/assign.js");
+/* harmony import */ var _babel_runtime_corejs2_core_js_object_assign__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs2_core_js_object_assign__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! axios */ "axios");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_2__);
+
+var _jsxFileName = "/Users/mac/Desktop/next/next-test/components/House.js";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
+
+
+class House extends react__WEBPACK_IMPORTED_MODULE_1__["Component"] {
+  constructor(props) {
+    super(props);
+    this.state = {
+      list: [],
+      value: this.props.value
+    };
+    this.addcar = this.addcar.bind(this);
+    const {
+      onIncreaseClick
+    } = this.props;
+    this.onIncreaseClick = onIncreaseClick;
+  }
+
+  componentWillMount() {
+    // let _this = this;
+    // const promise =new Promise((resolve)=>{
+    //     axios('../automobile/list.json').then(
+    //         (res)=>{
+    //             resolve(res.data)
+    //         }
+    //     )
+    // })
+    // promise.then(function(res){
+    //     let newarr = res.map(function(item){
+    //         return {...item,addnum: 0}
+    //     })
+    //     _this.setState({
+    //         list: newarr 
+    //     })
+    // })
+    this.setState({
+      list: [{
+        "img": "images/shenzhen.jpg",
+        "name": "深圳一套房",
+        "number": "8000000",
+        "addnum": 0
+      }, {
+        "img": "images/shanghai.jpg",
+        "name": "上海别墅",
+        "number": "50000000",
+        "addnum": 0
+      }, {
+        "img": "images/gaidao.jpg",
+        "name": "欧洲海岛",
+        "number": "110000000",
+        "addnum": 0
+      }, {
+        "img": "images/beijing.jpg",
+        "name": "北京四合院",
+        "number": "125000000",
+        "addnum": 0
+      }]
+    });
+  }
+
+  addcar(i) {
+    let newaddnum = this.state.list[i].addnum += 1;
+    let newmoney = this.state.list[i].number;
+    let newprodata = this.state.value - newaddnum * newmoney;
+    this.onIncreaseClick(newprodata);
+
+    let newlist = _babel_runtime_corejs2_core_js_object_assign__WEBPACK_IMPORTED_MODULE_0___default()([], this.state.list);
+
+    this.setState({
+      list: newlist
+    });
+  }
+
+  reducecar(i) {
+    if (this.state.list[i].addnum > 0) {
+      let newaddnum = this.state.list[i].addnum -= 1;
+      let newmoney = this.state.list[i].number;
+      let newprodata = this.state.value + newaddnum * newmoney;
+      this.onIncreaseClick(newprodata);
+
+      let newlist = _babel_runtime_corejs2_core_js_object_assign__WEBPACK_IMPORTED_MODULE_0___default()([], this.state.list);
+
+      this.setState({
+        list: newlist
+      });
+    }
+
+    return false;
+  }
+
+  addlist() {
+    let arr;
+
+    if (this.state.list.length) {
+      arr = this.state.list.map((item, i) => {
+        return __jsx("div", {
+          className: "auto_list",
+          key: i,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 87
+          },
+          __self: this
+        }, __jsx("img", {
+          src: item.img,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 88
+          },
+          __self: this
+        }), __jsx("h3", {
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 89
+          },
+          __self: this
+        }, item.name, __jsx("span", {
+          className: "price",
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 89
+          },
+          __self: this
+        }, "\uFFE5", item.number)), __jsx("div", {
+          className: "add_button",
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 90
+          },
+          __self: this
+        }, __jsx("div", {
+          className: "control",
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 91
+          },
+          __self: this
+        }, __jsx("div", {
+          className: "subtraction",
+          onClick: () => this.reducecar(i),
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 92
+          },
+          __self: this
+        }, "-"), __jsx("div", {
+          className: "addnum",
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 95
+          },
+          __self: this
+        }, item.addnum), __jsx("div", {
+          className: "addition",
+          onClick: () => this.addcar(i),
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 96
+          },
+          __self: this
+        }, "+")), __jsx("button", {
+          className: "increase",
+          onClick: () => this.addcar(i),
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 100
+          },
+          __self: this
+        }, "\u52A0\u5165\u8D2D\u7269\u8F66")));
+      });
+    }
+
+    return arr;
+  }
+
+  render() {
+    return __jsx(react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment, null, __jsx("div", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 110
+      },
+      __self: this
+    }, this.addlist()));
+  }
+
+}
+
+/***/ }),
+
+/***/ "./components/Piecemeal.js":
+/*!*********************************!*\
+  !*** ./components/Piecemeal.js ***!
+  \*********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Piecemeal; });
+/* harmony import */ var _babel_runtime_corejs2_core_js_object_assign__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/core-js/object/assign */ "./node_modules/@babel/runtime-corejs2/core-js/object/assign.js");
+/* harmony import */ var _babel_runtime_corejs2_core_js_object_assign__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs2_core_js_object_assign__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! axios */ "axios");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_2__);
+
+var _jsxFileName = "/Users/mac/Desktop/next/next-test/components/Piecemeal.js";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
+
+
+class Piecemeal extends react__WEBPACK_IMPORTED_MODULE_1__["Component"] {
+  constructor(props) {
+    super(props);
+    this.state = {
+      list: [],
+      value: this.props.value
+    };
+    this.addcar = this.addcar.bind(this);
+    const {
+      onIncreaseClick
+    } = this.props;
+    this.onIncreaseClick = onIncreaseClick;
+  }
+
+  componentWillMount() {
+    // let _this = this;
+    // const promise =new Promise((resolve)=>{
+    //     axios('../automobile/list.json').then(
+    //         (res)=>{
+    //             resolve(res.data)
+    //         }
+    //     )
+    // })
+    // promise.then(function(res){
+    //     let newarr = res.map(function(item){
+    //         return {...item,addnum: 0}
+    //     })
+    //     _this.setState({
+    //         list: newarr 
+    //     })
+    // })
+    this.setState({
+      list: [{
+        "img": "images/zhengjiao.jpg",
+        "name": "蒸饺",
+        "number": "6",
+        "addnum": 0
+      }, {
+        "img": "images/huasheng.jpg",
+        "name": "花生米",
+        "number": "10",
+        "addnum": 0
+      }, {
+        "img": "images/zhacai.jpg",
+        "name": "榨菜",
+        "number": "12",
+        "addnum": 0
+      }, {
+        "img": "images/naicha.jpg",
+        "name": "奶茶",
+        "number": "25",
+        "addnum": 0
+      }, {
+        "img": "images/zhurou.jpg",
+        "name": "猪肉",
+        "number": "30",
+        "addnum": 0
+      }, {
+        "img": "images/fangtuo.jpg",
+        "name": "防脱洗发液",
+        "number": "70",
+        "addnum": 0
+      }]
+    });
+  }
+
+  addcar(i) {
+    let newaddnum = this.state.list[i].addnum += 1;
+    let newmoney = this.state.list[i].number;
+    let newprodata = this.state.value - newaddnum * newmoney;
+    this.onIncreaseClick(newprodata);
+
+    let newlist = _babel_runtime_corejs2_core_js_object_assign__WEBPACK_IMPORTED_MODULE_0___default()([], this.state.list);
+
+    this.setState({
+      list: newlist
+    });
+  }
+
+  reducecar(i) {
+    if (this.state.list[i].addnum > 0) {
+      let newaddnum = this.state.list[i].addnum -= 1;
+      let newmoney = this.state.list[i].number;
+      let newprodata = this.state.value + newaddnum * newmoney;
+      this.onIncreaseClick(newprodata);
+
+      let newlist = _babel_runtime_corejs2_core_js_object_assign__WEBPACK_IMPORTED_MODULE_0___default()([], this.state.list);
+
+      this.setState({
+        list: newlist
+      });
+    }
+
+    return false;
+  }
+
+  addlist() {
+    let arr;
+
+    if (this.state.list.length) {
+      arr = this.state.list.map((item, i) => {
+        return __jsx("div", {
+          className: "auto_list",
+          key: i,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 99
+          },
+          __self: this
+        }, __jsx("img", {
+          src: item.img,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 100
+          },
+          __self: this
+        }), __jsx("h3", {
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 101
+          },
+          __self: this
+        }, item.name, __jsx("span", {
+          className: "price",
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 101
+          },
+          __self: this
+        }, "\uFFE5", item.number)), __jsx("div", {
+          className: "add_button",
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 102
+          },
+          __self: this
+        }, __jsx("div", {
+          className: "control",
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 103
+          },
+          __self: this
+        }, __jsx("div", {
+          className: "subtraction",
+          onClick: () => this.reducecar(i),
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 104
+          },
+          __self: this
+        }, "-"), __jsx("div", {
+          className: "addnum",
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 107
+          },
+          __self: this
+        }, item.addnum), __jsx("div", {
+          className: "addition",
+          onClick: () => this.addcar(i),
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 108
+          },
+          __self: this
+        }, "+")), __jsx("button", {
+          className: "increase",
+          onClick: () => this.addcar(i),
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 112
+          },
+          __self: this
+        }, "\u52A0\u5165\u8D2D\u7269\u8F66")));
+      });
+    }
+
+    return arr;
+  }
+
+  render() {
+    return __jsx(react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment, null, __jsx("div", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 122
       },
       __self: this
     }, this.addlist()));
@@ -306,59 +755,63 @@ class Automobile extends react__WEBPACK_IMPORTED_MODULE_9__["Component"] {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/head */ "next/head");
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _public_less_nav_less__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../public/less/nav.less */ "./public/less/nav.less");
-/* harmony import */ var _public_less_nav_less__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_public_less_nav_less__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! next/head */ "next/head");
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _public_less_nav_less__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../public/less/nav.less */ "./public/less/nav.less");
+/* harmony import */ var _public_less_nav_less__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_public_less_nav_less__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
 var _jsxFileName = "/Users/mac/Desktop/next/next-test/components/nav.js";
-
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
-
+var __jsx = react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement;
 
 
-function Nav() {
-  return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx(next_head__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 7
-    },
-    __self: this
-  }, __jsx("title", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 8
-    },
-    __self: this
-  }, "\u9A6C\u4E91\u6A21\u62DF\u5668"), __jsx("meta", {
-    charSet: "utf-8",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 9
-    },
-    __self: this
-  })), __jsx("div", {
-    className: "navclass",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 11
-    },
-    __self: this
-  }, __jsx("h3", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 12
-    },
-    __self: this
-  }, "\u4F59\u989D\uFF1A279,000,000,000"), __jsx("button", {
-    type: "button",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 13
-    },
-    __self: this
-  }, "\u8D2D\u7269\u8F66")));
+
+
+class Nav extends react__WEBPACK_IMPORTED_MODULE_2__["Component"] {
+  constructor(props) {
+    super(props);
+  }
+
+  render() {
+    const {
+      value,
+      onIncreaseClick
+    } = this.props;
+    return __jsx(react__WEBPACK_IMPORTED_MODULE_2___default.a.Fragment, null, __jsx(next_head__WEBPACK_IMPORTED_MODULE_0___default.a, {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 13
+      },
+      __self: this
+    }, __jsx("title", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 14
+      },
+      __self: this
+    }, "\u9A6C\u4E91\u6A21\u62DF\u5668"), __jsx("meta", {
+      charSet: "utf-8",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 15
+      },
+      __self: this
+    })), __jsx("div", {
+      className: "navclass",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 17
+      },
+      __self: this
+    }, __jsx("h3", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 18
+      },
+      __self: this
+    }, "\u4F59\u989D\uFF1A", value)));
+  }
+
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (Nav);
@@ -398,17 +851,6 @@ module.exports = __webpack_require__(/*! core-js/library/fn/object/create */ "co
 
 /***/ }),
 
-/***/ "./node_modules/@babel/runtime-corejs2/core-js/object/define-properties.js":
-/*!*********************************************************************************!*\
-  !*** ./node_modules/@babel/runtime-corejs2/core-js/object/define-properties.js ***!
-  \*********************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__(/*! core-js/library/fn/object/define-properties */ "core-js/library/fn/object/define-properties");
-
-/***/ }),
-
 /***/ "./node_modules/@babel/runtime-corejs2/core-js/object/define-property.js":
 /*!*******************************************************************************!*\
   !*** ./node_modules/@babel/runtime-corejs2/core-js/object/define-property.js ***!
@@ -428,28 +870,6 @@ module.exports = __webpack_require__(/*! core-js/library/fn/object/define-proper
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__(/*! core-js/library/fn/object/get-own-property-descriptor */ "core-js/library/fn/object/get-own-property-descriptor");
-
-/***/ }),
-
-/***/ "./node_modules/@babel/runtime-corejs2/core-js/object/get-own-property-descriptors.js":
-/*!********************************************************************************************!*\
-  !*** ./node_modules/@babel/runtime-corejs2/core-js/object/get-own-property-descriptors.js ***!
-  \********************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__(/*! core-js/library/fn/object/get-own-property-descriptors */ "core-js/library/fn/object/get-own-property-descriptors");
-
-/***/ }),
-
-/***/ "./node_modules/@babel/runtime-corejs2/core-js/object/get-own-property-symbols.js":
-/*!****************************************************************************************!*\
-  !*** ./node_modules/@babel/runtime-corejs2/core-js/object/get-own-property-symbols.js ***!
-  \****************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__(/*! core-js/library/fn/object/get-own-property-symbols */ "core-js/library/fn/object/get-own-property-symbols");
 
 /***/ }),
 
@@ -486,32 +906,35 @@ module.exports = __webpack_require__(/*! core-js/library/fn/weak-map */ "core-js
 
 /***/ }),
 
-/***/ "./node_modules/@babel/runtime-corejs2/helpers/esm/defineProperty.js":
-/*!***************************************************************************!*\
-  !*** ./node_modules/@babel/runtime-corejs2/helpers/esm/defineProperty.js ***!
-  \***************************************************************************/
+/***/ "./node_modules/@babel/runtime-corejs2/helpers/esm/extends.js":
+/*!********************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/helpers/esm/extends.js ***!
+  \********************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _defineProperty; });
-/* harmony import */ var _core_js_object_define_property__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../core-js/object/define-property */ "./node_modules/@babel/runtime-corejs2/core-js/object/define-property.js");
-/* harmony import */ var _core_js_object_define_property__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_core_js_object_define_property__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _extends; });
+/* harmony import */ var _core_js_object_assign__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../core-js/object/assign */ "./node_modules/@babel/runtime-corejs2/core-js/object/assign.js");
+/* harmony import */ var _core_js_object_assign__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_core_js_object_assign__WEBPACK_IMPORTED_MODULE_0__);
 
-function _defineProperty(obj, key, value) {
-  if (key in obj) {
-    _core_js_object_define_property__WEBPACK_IMPORTED_MODULE_0___default()(obj, key, {
-      value: value,
-      enumerable: true,
-      configurable: true,
-      writable: true
-    });
-  } else {
-    obj[key] = value;
-  }
+function _extends() {
+  _extends = _core_js_object_assign__WEBPACK_IMPORTED_MODULE_0___default.a || function (target) {
+    for (var i = 1; i < arguments.length; i++) {
+      var source = arguments[i];
 
-  return obj;
+      for (var key in source) {
+        if (Object.prototype.hasOwnProperty.call(source, key)) {
+          target[key] = source[key];
+        }
+      }
+    }
+
+    return target;
+  };
+
+  return _extends.apply(this, arguments);
 }
 
 /***/ }),
@@ -2428,26 +2851,32 @@ if (false) {} else {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/router */ "next/router");
-/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_router__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _public_less_reset_less__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../public/less/reset.less */ "./public/less/reset.less");
-/* harmony import */ var _public_less_reset_less__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_public_less_reset_less__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _public_less_index_less__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../public/less/index.less */ "./public/less/index.less");
-/* harmony import */ var _public_less_index_less__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_public_less_index_less__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var _components_nav__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/nav */ "./components/nav.js");
-/* harmony import */ var _components_Automobile__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/Automobile */ "./components/Automobile.js");
-/* harmony import */ var redux__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! redux */ "redux");
-/* harmony import */ var redux__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(redux__WEBPACK_IMPORTED_MODULE_7__);
-/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! react-redux */ "react-redux");
-/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(react_redux__WEBPACK_IMPORTED_MODULE_8__);
-/* harmony import */ var next_config__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! next/config */ "next/config");
-/* harmony import */ var next_config__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(next_config__WEBPACK_IMPORTED_MODULE_9__);
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/extends */ "./node_modules/@babel/runtime-corejs2/helpers/esm/extends.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! next/router */ "next/router");
+/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_router__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _public_less_reset_less__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../public/less/reset.less */ "./public/less/reset.less");
+/* harmony import */ var _public_less_reset_less__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_public_less_reset_less__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _public_less_index_less__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../public/less/index.less */ "./public/less/index.less");
+/* harmony import */ var _public_less_index_less__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_public_less_index_less__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _components_nav__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/nav */ "./components/nav.js");
+/* harmony import */ var _components_Automobile__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../components/Automobile */ "./components/Automobile.js");
+/* harmony import */ var _components_House__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../components/House */ "./components/House.js");
+/* harmony import */ var _components_Piecemeal__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../components/Piecemeal */ "./components/Piecemeal.js");
+/* harmony import */ var redux__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! redux */ "redux");
+/* harmony import */ var redux__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(redux__WEBPACK_IMPORTED_MODULE_10__);
+/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! react-redux */ "react-redux");
+/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(react_redux__WEBPACK_IMPORTED_MODULE_11__);
+/* harmony import */ var next_config__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! next/config */ "next/config");
+/* harmony import */ var next_config__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(next_config__WEBPACK_IMPORTED_MODULE_12__);
+
 var _jsxFileName = "/Users/mac/Desktop/next/next-test/pages/index.js";
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
+
+
 
 
 
@@ -2460,107 +2889,195 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 const {
   publicRuntimeConfig
-} = next_config__WEBPACK_IMPORTED_MODULE_9___default()();
+} = next_config__WEBPACK_IMPORTED_MODULE_12___default()(); // 定义counter组件
+
+class Counter extends react__WEBPACK_IMPORTED_MODULE_1__["Component"] {
+  constructor(props) {
+    super(props);
+    this.state = {
+      showlist: 1
+    };
+  }
+
+  taplist(id) {
+    this.setState({
+      showlist: id
+    });
+  }
+
+  render() {
+    const {
+      value,
+      onIncreaseClick
+    } = this.props;
+    return __jsx(react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment, null, __jsx(_components_nav__WEBPACK_IMPORTED_MODULE_6__["default"], Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, this.props, {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 33
+      },
+      __self: this
+    })), __jsx("div", {
+      className: "indexpage",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 34
+      },
+      __self: this
+    }, __jsx("div", {
+      className: "jackma",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 35
+      },
+      __self: this
+    }, __jsx("img", {
+      className: "header_img",
+      src: "images/jack-ma.jpg",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 36
+      },
+      __self: this
+    }), __jsx("h3", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 37
+      },
+      __self: this
+    }, "\u9A6C\u4E91\u6A21\u62DF\u5668")), __jsx("div", {
+      className: "mall",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 43
+      },
+      __self: this
+    }, __jsx("ul", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 44
+      },
+      __self: this
+    }, __jsx("li", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 45
+      },
+      __self: this
+    }, "\u5546\u57CE\uFF1A"), __jsx("li", {
+      className: this.state.showlist == 1 ? 'li_on' : '',
+      onClick: () => this.taplist(1),
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 46
+      },
+      __self: this
+    }, "\u4EA4\u901A"), __jsx("li", {
+      className: this.state.showlist == 2 ? 'li_on' : '',
+      onClick: () => this.taplist(2),
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 47
+      },
+      __self: this
+    }, "\u623F\u4EA7"), __jsx("li", {
+      className: this.state.showlist == 3 ? 'li_on' : '',
+      onClick: () => this.taplist(3),
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 48
+      },
+      __self: this
+    }, "\u96F6\u788E"))), this.state.showlist == 1 ? __jsx(_components_Automobile__WEBPACK_IMPORTED_MODULE_7__["default"], Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, this.props, {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 52
+      },
+      __self: this
+    })) : '', this.state.showlist == 2 ? __jsx(_components_House__WEBPACK_IMPORTED_MODULE_8__["default"], Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, this.props, {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 55
+      },
+      __self: this
+    })) : '', this.state.showlist == 3 ? __jsx(_components_Piecemeal__WEBPACK_IMPORTED_MODULE_9__["default"], Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, this.props, {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 58
+      },
+      __self: this
+    })) : ''));
+  }
+
+} //子组件传过来的值
+
+
+let childrendata;
+/*-----------具体通知描述及数据处理方法部分-------------*/
+// Action通知及描述
+
+const increaseAction = {
+  type: 'reduce'
+}; // Reducer计算  基于原有state根据action得到新的state
+
+function counter(state = {
+  count: 279000000000
+}, action) {
+  const count = state.count;
+
+  switch (action.type) {
+    case 'reduce':
+      //如果接到action为increase的通知执行
+      return {
+        count: childrendata
+      };
+
+    default:
+      return state;
+    //返回新的state
+  }
+}
+/*-----------数据存储器部分-------------*/
+// 根据reducer函数通过createStore()创建store(存储器)
+
+
+const store = Object(redux__WEBPACK_IMPORTED_MODULE_10__["createStore"])(counter);
+/*-----------映射方法及数据部分-------------*/
+//  将state映射到Counter组件的props(数据)
+
+function mapStateToProps(state) {
+  return {
+    value: state.count
+  };
+} //  将action映射到Counter组件的props(方法)
+
+
+function mapDispatchToProps(dispatch) {
+  return {
+    onIncreaseClick: function (data) {
+      childrendata = data;
+      dispatch(increaseAction); //定义点击方法发送action
+    }
+  };
+} // 传入上面两个函数参数，将Counter组件变为App组件
+
+
+const App = Object(react_redux__WEBPACK_IMPORTED_MODULE_11__["connect"])(mapStateToProps, mapDispatchToProps)(Counter);
 
 const Home = () => {
-  return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx(_components_nav__WEBPACK_IMPORTED_MODULE_5__["default"], {
+  return __jsx(react_redux__WEBPACK_IMPORTED_MODULE_11__["Provider"], {
+    store: store,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20
+      lineNumber: 111
     },
     __self: undefined
-  }), __jsx("div", {
-    className: "indexpage",
+  }, __jsx(App, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 21
+      lineNumber: 112
     },
     __self: undefined
-  }, __jsx("div", {
-    className: "jackma",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 22
-    },
-    __self: undefined
-  }, __jsx("div", {
-    className: "header_img",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 23
-    },
-    __self: undefined
-  }), __jsx("h3", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 24
-    },
-    __self: undefined
-  }, "\u9A6C\u4E91\u6A21\u62DF\u5668"), __jsx("div", {
-    className: "balance",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 25
-    },
-    __self: undefined
-  }, __jsx("button", {
-    className: "balance_baby",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 26
-    },
-    __self: undefined
-  }, "\u628A\u94B1\u5B58\u4F59\u989D\u5B9D"), __jsx("span", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 27
-    },
-    __self: undefined
-  }, "\u6BCF\u79D2\u6536\u76CA\uFF1A200\u5143"))), __jsx("div", {
-    className: "mall",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 30
-    },
-    __self: undefined
-  }, __jsx("ul", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 31
-    },
-    __self: undefined
-  }, __jsx("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 32
-    },
-    __self: undefined
-  }, "\u5546\u57CE\uFF1A"), __jsx("li", {
-    className: "li_on",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 33
-    },
-    __self: undefined
-  }, "\u6C7D\u8F66"), __jsx("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 36
-    },
-    __self: undefined
-  }, "\u623F\u4EA7"), __jsx("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 37
-    },
-    __self: undefined
-  }, "\u96F6\u788E"))), __jsx(_components_Automobile__WEBPACK_IMPORTED_MODULE_6__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 40
-    },
-    __self: undefined
-  })));
+  }));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Home);
@@ -2656,17 +3173,6 @@ module.exports = require("core-js/library/fn/object/create");
 
 /***/ }),
 
-/***/ "core-js/library/fn/object/define-properties":
-/*!**************************************************************!*\
-  !*** external "core-js/library/fn/object/define-properties" ***!
-  \**************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("core-js/library/fn/object/define-properties");
-
-/***/ }),
-
 /***/ "core-js/library/fn/object/define-property":
 /*!************************************************************!*\
   !*** external "core-js/library/fn/object/define-property" ***!
@@ -2686,28 +3192,6 @@ module.exports = require("core-js/library/fn/object/define-property");
 /***/ (function(module, exports) {
 
 module.exports = require("core-js/library/fn/object/get-own-property-descriptor");
-
-/***/ }),
-
-/***/ "core-js/library/fn/object/get-own-property-descriptors":
-/*!*************************************************************************!*\
-  !*** external "core-js/library/fn/object/get-own-property-descriptors" ***!
-  \*************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("core-js/library/fn/object/get-own-property-descriptors");
-
-/***/ }),
-
-/***/ "core-js/library/fn/object/get-own-property-symbols":
-/*!*********************************************************************!*\
-  !*** external "core-js/library/fn/object/get-own-property-symbols" ***!
-  \*********************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("core-js/library/fn/object/get-own-property-symbols");
 
 /***/ }),
 
