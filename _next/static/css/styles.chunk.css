@@ -186,7 +186,7 @@ body * {
 .indexpage .jackma .header_img {
   width: 150px;
   height: 150px;
-  background: url("/images/jack-ma.jpg") no-repeat;
+  display: block;
   background-size: cover;
   margin: 0 auto;
   border-radius: 50%;
